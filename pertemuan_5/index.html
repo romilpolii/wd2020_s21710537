@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tag Html Mutimedia</title>
+</head>
+<body>
+    <h1>
+        Gambar
+    </h1>
+    <p>
+        Hasil dari pada browser akan terlihat seperti ini
+    </p>
+    <img width="420" height="240" src="https://bit.ly/3j6eb3B" alt="Cat" />
+    <p>
+        Gambar seekor kucing, Kita sebut saja Meong
+    </p>
+    <!--  <img alt=""/>  hanya berfungsi sebagai dekorasi pada website-->
+    <br/>
+    <hr/>
+    
+    <h1>
+        Video
+    </h1>
+    <h3>
+        Video Element
+    </h3>
+    <p>
+        Sejak HTML5, sudah ada cara langsung untuk bisa menambahkan video pada halaman web kita; 
+        <br>yaitu dengan menggunakan tag < video > tanpa space.
+        <br> Format video yang didukung antara lain: mp4, ogg, dan webM.</p>
+    <p>
+        Contoh Video :
+    </p>
+    <video weight=240 height=320 auto play controls>
+        <source src="superZoom.mp4" type="video/mp4"/>
+        <source src="superZoom.mp4" type="video/ogg"/>
+        <source src="superZoom.mp4" type="video/webM"/>
+        Your browser does not support the Video element.
+    </video>
+    <p>menggunakan video dari laptop sendiri</p>
+
+    <video width=320 height=240 controls>
+        <source  src="https://bit.ly/3j6rPni" type="video/mp4"/>
+        <source  src="https://bit.ly/3j6rPni" type="video/ogg"/>
+        <source  src="https://bit.ly/3j6rPni" type="video/webM"/>
+        Your browser does not support the Video element.
+    </video> 
+    <p>menggunakan link di materi</p>
+
+    <br>
+    <hr>
+    <h1>
+        Suara
+    </h1>
+    <p>
+        Mirip dengan video, HTML5 juga mendukung adanya element yang berisi suara/audio. <br> Untuk menampilkan suara pada halaman sebuah website bisa menggunakan tag < audio >. <br> Format yang didukung pun meliputi mp3, wav, dan ogg.
+    </p>
+     <audio controls src="https://bit.ly/2EbrKA4"></audio>
+    <p>
+        contoh lagu dari materi
+    </p>
+    <br>
+     <audio controls>
+        <source src="We'll Meet Again - TheFatRat.mp4" type="audio/mp3" />
+     </audio>
+    <p>
+        contoh lagu dari laptop
+    </p>
+    <br><br/>
+    <h3>
+        Fallback Audio Format
+    </h3>
+    <audio controls>
+        <source src="Fun Background Music For Videos.ogg" type="audio/ogg" />
+        <source src="Fun Background Music For Videos.mp3" type="audio/mp3" />
+        <source src="Fun Background Music For Videos.wav" type="audio/wav" />
+        Your browser does not support the audio element.
+    </audio>
+    <br>
+    <h3>
+        Loop Audio
+    </h3>
+    <audio loop controls>
+        <source src="Fun Background Music For Videos.mp3" type="audio/mp3" />
+    </audio>
+    <br>
+    <h3>
+        Autoplay Audio
+    </h3>
+    <audio autoplay loop controls>
+        <source src="Fun Background Music For Videos.mp3" type="audio/mp3" />
+     </audio>
+
+     <br>
+    <hr>
+    
+    <h1>
+        IFrame
+    </h1>
+    <iframe width="400" height="400" scrolling="no" frameborder="0" src="https://www.youtube.com/embed/UxP7zy9LZyo"></iframe>
+
+</body>
+</html>
