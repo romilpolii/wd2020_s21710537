@@ -1,0 +1,17 @@
+.lorem{
+    visibility: hidden;
+
+}
+.block_p{/*contoh display : block*/
+    display: block;
+    border: 5px solid blue;
+    background-color: antiquewhite;
+    margin: 2px;
+}
+.block_span{
+    display: block;
+    border: 5px solid red;
+    background-color: antiquewhite;
+    margin: 2px;
+}
+

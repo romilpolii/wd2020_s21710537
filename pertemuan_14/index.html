@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="x-euc-jp"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!--agar compile di berbagai macam broser smarphone & desktop-->
+    <Meta name="description" content="Konsep dasar CSS"/> <!-- kebutuhan search enggine-->
+    <title>CSS Display</title>
+    <link rel="stylesheet" href="styles.css">
+    <!--contoh Inline-Level Element-->
+    <style>
+    .green_text{
+        background: green;
+        height: 35px;
+    }
+    .blue_text{
+        background: blue;
+        height: 35px;
+    }
+    </style>
+
+</head>
+<body>
+    <h1>CSS Display</h1>
+    <p class="lorem">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus molestiae sint labore, commodi explicabo atque? Quidem mollitia iure ipsam aspernatur nemo dolorem iste asperiores facere ipsa dolor? Error, saepe voluptatibus.
+    </p>
+    <div>
+        <p class="block_p">Element paragraf adalah</p>
+        <p class="block_p">Block-level element</p>
+        <p class="block_p">ia akan menempati</p>
+        <p class="block_p">satu baris</p>
+    </div>
+    <div>
+        <span class="block_span">Element paragraf adalah</span>
+        <span class="block_span">Block-level element</span>
+        <span class="block_span">ia akan menempati</span>
+        <span class="block_span">satu baris</span>
+    </div>
+
+    <p class="green_text">Teks dengan background hijau</p>
+    <p class="blue_text">Teks dengan background biru</p>
+    <span class="green_text">Teks dengan latar belakang hijau</span>
+    <span class="blue_text">Teks dengan latar belakang biru</span>
+</body>
+</html>
