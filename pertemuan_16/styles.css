@@ -1,0 +1,15 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+}
+h1{
+    font-family: 'Sansita Swashed', cursive;
+    /* font-size: 90px; */
+    /* font-size: 5.635em; */
+    font-size: 5.635rem;
+    /* text-align: center; */
+    width: 46%; /* posisi tidak di tengah */
+    margin: 0 auto;
+}
+p{
+    font-family: 'Chilanka', cursive;
+}
