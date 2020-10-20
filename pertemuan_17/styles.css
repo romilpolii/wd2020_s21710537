@@ -1,0 +1,48 @@
+h1.ab{
+    font-family: 'Sansita Swashed', cursive;
+    font-size: 50px;
+    /*ukurannya tidak akan berubah karena piksel merupakan
+    ukuran yang mutklak atau absolute, itu dikarenakan piksel
+    menyesuaikan dengan ukuran piksel pada perangkat.*/
+}
+.px{
+    font-family: 'Chilanka', cursive;
+    font-size: 15px;
+}
+h1.rl{
+    font-family: 'Sansita Swashed', cursive;
+        font-size: 3.125em; /* 3.125em = 50px
+    /*ukurannya akan berubah karena em masuk dalam
+    kategori relatif dan itu membuat ukurannya berubah
+    apa bila perangkat mengubah ukuran fontnya itu 
+    dikarenakan em menyesuaikan dengan ukuran pada perangkat.*/
+}
+.em{
+    font-family: 'Chilanka', cursive;
+    font-size: 0.9375em; /* 0.9375em = 15px*/
+}
+.rem{
+    font-family: 'Chilanka', cursive;
+    font-size: 0.9375rem; /* 0.9375em = 15px*/
+}
+
+/*EM sama REM ini bersaudara, bedanya juga cuma sedikit, 
+kalau EM bergantung pada "font-size" saat ini, 
+sedangkan REM bergantung pada root HTML element. 
+Defaultnya 16 px. jadi kalau font-size html element 
+ngga kita ubah maka 1rem = 16px. 
+Tapi kita bisa aja ubah sesuai keinginan kita.*/
+
+html {
+    font-size: 62.5%; 
+}
+/*Dari kode diatas maka font-size dari html element 
+sudah diubah menjadi 62.5% * 16px = 10px. 
+Mengubah font-size menjadi 62.5% ini sangat recommended, 
+karena saat ini 1rem = 10 px. jadi kita gausah pusing2 
+ngitung matematikanya. Misal kita pengen 20 px, 
+ya dengan mudah, pasti setara dengan 2rem. 
+Bayangkan kalau font-sizenya masih default. 
+Berapa rem jika outpunya pengen 20px ? 
+susah kan ? 
+20px/16px = 1.25 rem.*/
